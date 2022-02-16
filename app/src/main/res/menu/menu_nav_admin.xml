@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/navAdmin_Category"
+        android:id="@+id/navAdmin_Category"
+        android:icon="@drawable/ic_category"
+        />
+
+    <item android:title="@string/navAdmin_Chat"
+        android:id="@+id/navAdmin_Chat"
+        android:icon="@drawable/ic_message"
+        />
+
+    <item android:title="@string/navAdmin_Orders"
+        android:id="@+id/navAdmin_Orders"
+        android:icon="@drawable/ic_order"
+        />
+
+    <item android:title="@string/navAdmin_Account"
+        android:id="@+id/navAdmin_Account"
+        android:icon="@drawable/ic_user"
+        />
+
+</menu>

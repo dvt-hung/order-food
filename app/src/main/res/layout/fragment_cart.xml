@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp">
+    <FrameLayout
+        android:id="@+id/bannerCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        >
+        <TextView
+            android:id="@+id/txtNameCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/anton"
+            android:text="@string/cart"
+            android:textColor="#FB0303"
+            android:layout_marginStart="10dp"
+            android:textSize="20sp" />
+    </FrameLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycle_cart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/layoutBottomCart"
+        android:layout_below="@id/bannerCart"
+        android:layout_marginBottom="10dp"
+        />
+
+    <RelativeLayout
+        android:id="@+id/layoutBottomCart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/statusTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/total_cart"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtTotalPriceCart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toStartOf="@id/btnPayCart"
+            android:layout_toEndOf="@id/statusTotal"
+            android:layout_marginStart="10dp"
+            android:text=""
+            android:textColor="#FD0303"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnPayCart"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/cus_btn_pay"
+            android:backgroundTint="@null"
+            android:text="@string/pay_cart"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            app:backgroundTint="@null" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_Sale_Admin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/sale_admin"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:drawableEndCompat="@drawable/ic_arrow_right"
+            android:gravity="center_vertical"
+            app:drawableStartCompat="@drawable/ic_sale"
+            android:drawablePadding="15dp"
+            tools:ignore="RtlSymmetry"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="#AEA9A9" />
+
+        <TextView
+            android:id="@+id/txt_Pass_Admin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/change_pass_user"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:drawableEndCompat="@drawable/ic_arrow_right"
+            tools:ignore="RtlSymmetry"
+            android:gravity="center_vertical"
+            android:drawablePadding="15dp"
+            app:drawableStartCompat="@drawable/ic_password" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_LogOutAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:drawablePadding="15dp"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="@string/log_out"
+        android:textColor="#F60000"
+        android:textSize="16sp"
+        app:drawableEndCompat="@drawable/ic_arrow_right"
+        app:drawableStartCompat="@drawable/logout"
+        tools:ignore="RtlSymmetry" />
+</RelativeLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:background="@drawable/dialog_top_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:text="@string/change_profile_user"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_bottom_bg"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layout_ChangeInfo_Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:errorEnabled="true"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edt_ChangeInfo_Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/your_name"
+                android:maxLines="1"
+                android:inputType="text"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/layout_ChangeInfo_Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:errorEnabled="true"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edt_ChangeInfo_Email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/username"
+                android:maxLines="1"
+                android:inputType="text"
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <LinearLayout
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_ChangeInfo_Cancel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@null"
+                app:backgroundTint= "@null"
+                android:background="@drawable/cus_btn_cancel_manager"
+                android:text="@string/cancel"
+                android:textColor="@color/black"
+                android:layout_marginEnd="10dp"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                />
+            <Button
+                android:id="@+id/btn_ChangeInfo_Confirm"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@null"
+                android:background="@drawable/cus_btn_confirm_manager"
+                app:backgroundTint= "@null"
+                android:textColor="@color/black"
+                android:text="@string/confirm"
+                android:textStyle="bold"
+                android:layout_weight="1"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

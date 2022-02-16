@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/drawable-v24/cus_btn_confirm_manager.xml" value="0.14375" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/drawable-v24/dialog_addcategory_bottom_bg.xml" value="0.14375" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/drawable-v24/dialog_bottom_bg.xml" value="0.26614583333333336" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/drawable/background_bottom_nav.xml" value="0.26205128205128203" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/drawable/bg_bottom_sheet_category.xml" value="0.26205128205128203" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/drawable/bottom_nav_checked.xml" value="0.26205128205128203" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/drawable/btn_log_out.xml" value="0.26614583333333336" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/drawable/cus_btn_add_food.xml" value="0.24537037037037038" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/drawable/cus_btn_bottomsheet.xml" value="0.26205128205128203" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/drawable/cus_btn_bottomsheet_invisible.xml" value="0.2388888888888889" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/drawable/cus_btn_cancel_manager.xml" value="0.14375" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/drawable/cus_btn_pay.xml" value="0.25462962962962965" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/drawable/cus_btn_sign_in.xml" value="0.26205128205128203" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/drawable/cus_btn_sign_up.xml" value="0.26205128205128203" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/drawable/dialog_addcategory_top_bg.xml" value="0.2" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/drawable/dialog_bottom_bg.xml" value="0.26614583333333336" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/drawable/dialog_top_bg.xml" value="0.26614583333333336" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/drawable/ic_home.xml" value="0.26205128205128203" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/drawable/view_status_current.xml" value="0.26614583333333336" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/drawable/view_status_remaining.xml" value="0.26614583333333336" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/activit_category_details_manager.xml" value="0.2" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/activit_food_manager.xml" value="0.18795289855072464" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/activity_admin_main.xml" value="0.264" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/activity_category_details.xml" value="0.2" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/activity_chat.xml" value="0.22962962962962963" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/activity_details_category.xml" value="0.19746376811594202" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/activity_details_order.xml" value="0.264" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/activity_food_manager.xml" value="0.12158054711246201" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/activity_intro.xml" value="0.1403985507246377" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/activity_login.xml" value="0.152" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/activity_order.xml" value="0.264" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/activity_order_new.xml" value="0.25" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/activity_sale.xml" value="0.264" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/activity_sign_in.xml" value="0.19791666666666666" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/activity_sign_up.xml" value="0.264" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/admin_fragment_account.xml" value="0.264" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/admin_fragment_category.xml" value="0.264" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/admin_fragment_food.xml" value="0.176" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/admin_fragment_order.xml" value="0.17346014492753623" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/details_food_bottomsheet.xml" value="0.264" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/dialog_add_category.xml" value="0.264" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/dialog_add_food.xml" value="0.2" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/dialog_cancel_order.xml" value="0.25" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/dialog_change_info.xml" value="0.25" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/dialog_change_password.xml" value="0.25" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/dialog_details_order.xml" value="0.264" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/dialog_details_sale.xml" value="0.25" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/dialog_log_out.xml" value="0.264" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/dialog_order.xml" value="0.264" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/dialog_update_category.xml" value="0.15489130434782608" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/fragment_cart.xml" value="0.264" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/fragment_chat.xml" value="0.2" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/fragment_frofile.xml" value="0.18342391304347827" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/fragment_logout.xml" value="0.18342391304347827" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/item_cart.xml" value="0.264" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/item_category.xml" value="0.4" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/item_category_admin.xml" value="0.264" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/item_chat_left.xml" value="0.25" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/item_chat_right.xml" value="0.6" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/item_details_category.xml" value="0.2" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/item_food_admin.xml" value="0.264" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/item_food_detail_order.xml" value="0.264" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/item_list_user_chat.xml" value="0.264" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/item_order_admin.xml" value="0.264" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/item_order_user.xml" value="0.264" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/item_slide_image.xml" value="0.15625" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/item_suggest_food.xml" value="0.2" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/menu_category_bottom_sheet.xml" value="0.264" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/menu_food_bottom_sheet.xml" value="0.19293478260869565" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/layout/nav_header.xml" value="0.264" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/menu/bot_nav_checked.xml" value="0.25" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/menu/menu_nav.xml" value="0.25" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/menu/menu_nav_admin.xml" value="0.25" />
+        <entry key="..\:/Project_Do_An_2/app/src/main/res/menu/menu_sale.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

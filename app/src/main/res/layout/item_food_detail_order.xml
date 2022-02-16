@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/txt_Name_Food_Order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_toStartOf="@+id/title_quantity"
+        android:text="Cơm tấm"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/title_quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title_quantity_order"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_toStartOf="@id/txt_Quantity_Food_Order"
+        />
+
+    <TextView
+        android:id="@+id/txt_Quantity_Food_Order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="10dp"
+        android:text="2"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/title_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_Name_Food_Order"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="10dp"
+
+        android:text="@string/title_price_order"
+
+        />
+
+    <TextView
+        android:id="@+id/txt_Price_Food_Order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_Name_Food_Order"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@id/title_price"
+        android:text="10000" />
+</RelativeLayout>

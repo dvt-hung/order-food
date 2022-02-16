@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">OrderFood</string>
+    <string name="title_activity_main">Welcome to Ghiền</string>
+    <string name="title_activity_admin">Manager</string>
+    <string name="sign_in">ĐĂNG NHẬP</string>
+    <string name="sign_up">ĐĂNG KÝ</string>
+    <string name="username">Email</string>
+    <string name="your_name">Họ và tên</string>
+    <string name="password">Mật khẩu</string>
+    <string name="confirm">Xác nhận</string>
+    <string name="confirm_pay">Hoàn thành đơn</string>
+    <string name="log_out">Đăng xuất</string>
+    <string name="cancel">Hủy</string>
+    <string name="password_new">Mật khẩu mới</string>
+    <string name="pass_confirm">Nhập lại mật khẩu</string>
+    <string name="btn_bottom_sheet">Thêm vào giỏ hàng</string>
+    <string name="delete">Xóa</string>
+    <string name="cart">Giỏ hàng của bạn</string>
+    <string name="total_cart">Tổng tiền: </string>
+    <string name="pay_cart">Đặt hàng </string>
+    <string name="choose_img_category">Chọn ảnh cho danh mục </string>
+    <string name="choose_img_food">Chọn ảnh cho món ăn </string>
+    <string name="add_category">Thêm danh mục món ăn </string>
+    <string name="update_name_category">Nhập tên cho danh mục </string>
+    <string name="add_food">Thêm món ăn mới </string>
+    <string name="update_category">Chỉnh sửa danh mục món ăn </string>
+    <string name="btn_add_food">Thêm món ăn </string>
+    <string name="title_category_manager">Danh mục món ăn </string>
+    <string name="title_order"> Hoàn tất đặt hàng </string>
+    <string name="message_order"> Vui lòng điền thông tin hoàn tất đặt hàng </string>
+    <string name="request_log_out"> Bạn có muốn đăng xuất không? </string>
+    <string name="request_cancel_order"> Bạn có hủy đơn hàng này không? </string>
+    <string name="sale_admin"> Doanh thu bán hàng </string>
+    <string name="sale_today"> Hôm nay </string>
+    <string name="sale_date"> Theo ngày </string>
+    <string name="sale_month"> Theo tháng </string>
+    <string name="start_date"> Ngày bắt đầu </string>
+    <string name="end_date"> Ngày kết thúc </string>
+    <string name="choose_month"> Chọn tháng </string>
+
+
+    <string name="hint_name_add_food">Tên của món ăn</string>
+    <string name="hint_price_add_food">Giá của món ăn</string>
+    <string name="hint_des_add_food">Thành phần của món ăn</string>
+
+
+    <string name="hint_phone_order">Số diện thoại</string>
+    <string name="hint_address_order">Địa chỉ giao hàng</string>
+    <string name="hint_note_order">Ghi chú</string>
+
+    <string name="bottom_menu_details_food">Chi tiết</string>
+    <string name="bottom_menu_update_category">Chỉnh sửa danh mục</string>
+    <string name="bottom_menu_delete_category">Xóa danh mục</string>
+    <string name="bottom_menu_delete_food">Xóa món ăn</string>
+    <string name="bottom_menu_update_food">Cập nhật</string>
+
+
+    <!--        Intro Activity      -->
+    <string name="logan_intro">ĂN ĐI NGẠI CHI</string>
+
+    <!--        Navigation Menu      -->
+    <string name="nav_home">Trang chủ</string>
+    <string name="nav_cart">Giỏ hàng</string>
+    <string name="nav_chat">Tin nhắn</string>
+    <string name="nav_my_profile">Tôi</string>
+    <string name="nav_account">Tài khoản</string>
+
+    <!--        Home Fragment       -->
+    <string name="home_suggest">Gợi ý cho bạn</string>
+
+
+    <!--        Admin Activity       -->
+    <string name="navAdmin_Category">Danh mục món</string>
+    <string name="navAdmin_Chat">Tin nhắn</string>
+    <string name="navAdmin_Orders">Đơn hàng</string>
+    <string name="navAdmin_Account">Tài khoản</string>
+
+    <!--        Order Admin       -->
+    <string name="title_status_order">Trạng thái đơn: </string>
+    <string name="title_name_order">Tên khách hàng:  </string>
+    <string name="title_note_order">Ghi chú:  </string>
+    <string name="title_phone_order">SĐT: </string>
+    <string name="title_phone_order2">Số điện thoại: </string>
+    <string name="title_address_order">Địa chỉ: </string>
+    <string name="title_details_order">Chi tiết đơn hàng </string>
+    <string name="title_list_order">Danh sách món:  </string>
+    <string name="title_quantity_order">Số lượng: </string>
+    <string name="title_price_order">Giá: </string>
+
+    <!--        CHANNEL ID NOTIFICATION       -->
+    <string name="channel_name_admin">Order Admin</string>
+    <string name="channel_cancel_admin">Order Cancel Admin</string>
+    <string name="channel_success_admin">Order Success Admin</string>
+    <string name="channel_name_user">Order User</string>
+    <string name="channel_name_chat_admin">Chat Admin</string>
+    <string name="channel_name_chat_user">Chat User</string>
+    <string name="channel_des_admin">Description channel id - Admin</string>
+    <string name="channel_des_cancel_admin">Description channel cancel id - Admin</string>
+    <string name="channel_des_success_admin">Description channel success id - Admin</string>
+    <string name="channel_des_user">Description channel id - User</string>
+    <string name="channel_des_chat_admin">Description channel chat - Admin</string>
+    <string name="channel_des_chat_user">Description channel chat - User</string>
+
+    <!--        Profile - User       -->
+    <string name="order_user">Đơn hàng của bạn</string>
+    <string name="change_profile_user">Thay đổi thông tin</string>
+    <string name="change_pass_user">Thay đổi mật khẩu</string>
+
+    <!--       DETAILS ORDER USER      -->
+    <string name="title_order_success">Đơn hàng của bạn đã đặt thành công</string>
+    <string name="title_order_request">Đơn hàng của bạn đang chờ duyệt</string>
+    <string name="title_order_shipping">Đơn hàng của bạn đang được giao</string>
+    <string name="title_cancel_order">Hủy đơn</string>
+
+
+</resources>

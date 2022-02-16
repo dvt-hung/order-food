@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp">
+
+    <RelativeLayout
+        android:id="@+id/layout_FoodManager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="3dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        >
+        <ImageView
+            android:id="@+id/img_FoodManager"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:padding="3dp"
+            android:src="@drawable/com" />
+
+        <LinearLayout
+            android:layout_marginStart="5dp"
+            android:padding="3dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/img_FoodManager"
+            >
+            <TextView
+                android:id="@+id/txt_NameFoodManager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name Food"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:layout_marginTop="3dp"
+                android:id="@+id/txt_PriceFoodManager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Price Food"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#F60303"
+                />
+            <TextView
+                android:layout_marginTop="3dp"
+                android:id="@+id/txt_DescriptionFoodManager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Description Food"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>

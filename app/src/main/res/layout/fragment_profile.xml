@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/txt_Name_Profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="@string/your_name"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txt_Email_Profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/username"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:textSize="16sp"
+        android:layout_below="@id/txt_Name_Profile"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_Email_Profile"
+        android:layout_marginTop="30dp"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_Order_Profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/order_user"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:drawableEndCompat="@drawable/ic_arrow_right"
+            android:gravity="center_vertical"
+            app:drawableStartCompat="@drawable/ic_order_user"
+            android:drawablePadding="15dp"
+            tools:ignore="RtlSymmetry"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="#AEA9A9" />
+
+        <TextView
+            android:id="@+id/txt_Change_Profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/change_profile_user"
+            android:textColor="@color/black"
+            android:gravity="center_vertical"
+            android:textSize="16sp"
+            app:drawableEndCompat="@drawable/ic_arrow_right"
+            tools:ignore="RtlSymmetry"
+            android:drawablePadding="15dp"
+            app:drawableStartCompat="@drawable/ic_change_profile" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="#AEA9A9" />
+
+        <TextView
+            android:id="@+id/txt_Pass_Profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="@string/change_pass_user"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            app:drawableEndCompat="@drawable/ic_arrow_right"
+            tools:ignore="RtlSymmetry"
+            android:gravity="center_vertical"
+            android:drawablePadding="15dp"
+            app:drawableStartCompat="@drawable/ic_password" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_LogOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:drawablePadding="15dp"
+        android:gravity="center_vertical"
+        android:padding="10dp"
+        android:text="@string/log_out"
+        android:textColor="#F60000"
+        android:textSize="16sp"
+        app:drawableEndCompat="@drawable/ic_arrow_right"
+        app:drawableStartCompat="@drawable/logout"
+        tools:ignore="RtlSymmetry" />
+
+
+
+</RelativeLayout>

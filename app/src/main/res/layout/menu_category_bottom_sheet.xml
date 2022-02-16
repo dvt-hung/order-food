@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/bottom_menu_Details"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="15dp"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_info_item"/>
+            <TextView
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginStart="25dp"
+                android:layout_gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bottom_menu_details_food"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bottom_menu_UpdateCategory"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="15dp"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_update_item"/>
+            <TextView
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:layout_marginStart="25dp"
+                android:layout_gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bottom_menu_update_category"
+                />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/bottom_menu_DeleteCategory"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginBottom="30dp"
+            >
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/ic_remove_item"/>
+            <TextView
+                android:textColor="#FF0303"
+                android:textSize="18sp"
+                android:layout_marginStart="25dp"
+                android:layout_gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/bottom_menu_delete_category"
+                />
+        </LinearLayout>
+
+</LinearLayout>
+
